@@ -15,7 +15,9 @@ pkg install -y golang
 pkg install -y rust
 pkg install -y php
 
-sleep 5
+sleep 2
+
+neofetch
 
 cd $HOME/Sakurai_Yukino/
 
@@ -24,12 +26,12 @@ mv font.ttf ~/.termux
 
 cd $HOME
 
-sleep 5
+sleep 2
 
 pkg install -y build-essential cmake ninja gettext libtool autoconf automake curl doxygen ncurses-utils gperf pkg-config
 pkg install -y neovim
 
-sleep 5
+sleep 2
 
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 
@@ -37,7 +39,7 @@ sleep 2
 
 pkg install -y cmatrix nyancat fortune cowsay sl ninvaders nethack moon-buggy greed tty-solitaire 
 
-sleep 1
+sleep 2
 touch .hushlogin
 
 cat <<EOF > .bashrc
