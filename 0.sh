@@ -18,17 +18,14 @@ pkg install -y php
 
 sleep 5
 
-mkdir -p termux-c
-cd termux-c
-wget https://github.com/PtHntaeaaa/Ram/releases/download/Ram/JetBrainsMonoNerdFont-Italic.ttf
+cd $HOME/Sakurai_Yukino/
+
 mv JetBrainsMonoNerdFont-Italic.ttf font.ttf
 mv font.ttf ~/.termux
 
 cd $HOME
 
 sleep 5
-
-rm -rf $HOME/termux-c
 
 pkg install -y build-essential cmake ninja gettext libtool autoconf automake curl doxygen ncurses-utils gperf pkg-config
 pkg install -y neovim
