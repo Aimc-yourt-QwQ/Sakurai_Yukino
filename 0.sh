@@ -46,7 +46,5 @@ pkg install -y cmatrix nyancat fortune cowsay sl ninvaders nethack moon-buggy gr
 
 cat <<EOF > .bashrc
 fastfetch
-chmod +x $HOME/Sakurai_Yukino/1.sh
-bash $HOME/Sakurai_Yukino/1.sh
 exec fish
 EOF
