@@ -48,5 +48,5 @@ cat <<EOF > .bashrc
 fastfetch
 exec fish
 chmod +x $HOME/Sakurai_Yukino/1.sh
-. $HOME/Sakurai_Yukino/1.sh
+bash $HOME/Sakurai_Yukino/1.sh
 EOF
