@@ -37,6 +37,10 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 
 sleep 2
 
+rm -rf ~/.config/nvim/.git
+
+sleep 2
+
 pkg install -y cmatrix nyancat fortune cowsay sl ninvaders nethack moon-buggy greed tty-solitaire 
 
 sleep 2
