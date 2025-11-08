@@ -1,5 +1,4 @@
 #bin/bash
-touch .hushlogin
 
 cd $HOME
 ping -c 5 www.baidu.com
@@ -37,6 +36,9 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 sleep 2
 
 pkg install -y cmatrix nyancat fortune cowsay sl ninvaders nethack moon-buggy greed tty-solitaire 
+
+sleep 1
+touch .hushlogin
 
 cat <<EOF > .bashrc
 fastfetch
