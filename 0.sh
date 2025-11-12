@@ -2,6 +2,9 @@
 
 cd $HOME
 ping -c 5 www.baidu.com
+
+DEBIAN_FRONTEND=noninteractive
+
 sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list && apt update && apt upgrade -y
 
 pkg install -y git nmap fzf wget unzip fish eza fd nodejs zoxide tree htop openssh tig bat ripgrep jq yq curl ncdu tmux gdb neofetch oh-my-posh fastfetch gh proot proot-distro zsh
