@@ -44,7 +44,7 @@ print_sakura_gradient() {
 }
 
 # $1: 文本行
-# $2: 总长度 (用于计算渐变比例)
+# $2: 总长度 
 print_sakura_gradient_line() {
     local TEXT="$1"
     local LENGTH=${#TEXT}
