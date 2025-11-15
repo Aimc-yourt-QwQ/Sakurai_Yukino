@@ -201,9 +201,10 @@ if status is-interactive
 end
 
 set -g fish_greeting ""
-oh-my-posh init fish --config ~/.cache/oh-my-posh/themes/catppuccin_mocha.omp.json | source
+oh-my-posh init fish --config ~/.cache/oh-my-posh/themes/nordtron.omp.json | source
 
 alias v 'nvim'
+
 EOF
 
 cp $HOME/Sakurai_Yukino/dracula $HOME/.termux/colors.properties
