@@ -181,7 +181,7 @@ handle_input() {
             ;;
         8)
 cat > ~/.bashrc <<'EOF'
-neofetch
+fastfetch
 exec fish
 EOF
 
