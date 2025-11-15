@@ -4,6 +4,7 @@ touch ~/.hushlogin
 cd $HOME
 pkg install oh-my-posh -y
 DEBIAN_FRONTEND=noninteractive apt install -yqq bc
+rm -rf ~/Sakurai_Yukino/.git
 
 RESET='\e[0m'
 BLOCK='█'
