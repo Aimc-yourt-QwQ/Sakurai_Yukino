@@ -2,6 +2,7 @@
 
 touch ~/.hushlogin
 cd $HOME
+pkg install oh-my-posh -y
 DEBIAN_FRONTEND=noninteractive apt install -yqq bc
 
 RESET='\e[0m'
@@ -128,7 +129,7 @@ handle_input() {
 
     case "$choice_trimmed" in
         1) 
-            DEBIAN_FRONTEND=noninteractive apt install -yqq apt git nmap fzf wget unzip fish eza fd nodejs zoxide tree htop openssh tig bat ripgrep jq yq curl ncdu tmux gdb neofetch oh-my-posh fastfetch gh proot proot-distro zsh
+            DEBIAN_FRONTEND=noninteractive apt install -yqq apt git nmap fzf wget unzip fish eza fd nodejs zoxide tree htop openssh tig bat ripgrep jq yq curl ncdu tmux gdb neofetch fastfetch gh proot proot-distro zsh
             echo -e "${C_BLUE} Sakurai_Yukino: 完成${RESET}"
             sleep 1
             ;;
