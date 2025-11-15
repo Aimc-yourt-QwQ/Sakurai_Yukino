@@ -206,6 +206,7 @@ oh-my-posh init fish --config ~/.cache/oh-my-posh/themes/catppuccin_mocha.omp.js
 alias v 'nvim'
 EOF
 
+cp $HOME/Sakurai_Yukino/dracula $HOME/.termux/
 echo -e "${C_PINK} Sakurai_Yukino: 完成${RESET}"
               sleep 1
               ;;
