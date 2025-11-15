@@ -185,7 +185,7 @@ neofetch
 exec fish
 EOF
 
-echo -e "${C_PINK} Sakurai_Yukino: 完成，输入Q或q退出脚本，重启termux，执行剩下的步骤${RESET}"
+echo -e "${C_PINK} Sakurai_Yukino: 完成，输入Q或q退出脚本，重启termux，使用 cd Sakurai_Yukino&& bash SakuraiYukino2.0.sh 然后执行剩下的步骤${RESET}"
              sleep 10
              ;;
          9)
@@ -209,6 +209,9 @@ EOF
 
 cp $HOME/Sakurai_Yukino/dracula $HOME/.termux/colors.properties
 
+cd $HOME
+mkdir .img
+cp $HOME/Sakurai_Yukino/back.jpg $HOME/.img/
 echo -e "${C_PINK} Sakurai_Yukino: 完成${RESET}"
               sleep 1
               ;;
