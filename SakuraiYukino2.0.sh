@@ -39,7 +39,6 @@ print_sakura_gradient() {
     echo -e "$RESET"
 }
 
-# --- 新增: 打印渐变艺术字单行函数 ---
 # $1: 文本行
 # $2: 总长度 (用于计算渐变比例)
 print_sakura_gradient_line() {
@@ -48,13 +47,12 @@ print_sakura_gradient_line() {
     local MAX_LENGTH="$2"
     local i R G B COLOR_CODE RATIO
 
-    # 渐变分为两段: 蓝 -> 紫 (0到50%) 和 紫 -> 粉 (50%到100%)
     local MID_POINT=$(echo "scale=0; $MAX_LENGTH / 2" | bc)
 
     for ((i=0; i<LENGTH; i++)); do
         local CHAR="${TEXT:i:1}"
         
-        # 跳过空格，不给空格上色
+        # 跳过空格
         if [[ "$CHAR" == " " ]]; then
             echo -n "$SPACE"
             continue
