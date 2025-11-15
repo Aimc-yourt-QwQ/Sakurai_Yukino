@@ -2,6 +2,7 @@
 
 touch ~/.hushlogin
 cd $HOME
+DEBIAN_FRONTEND=noninteractive apt install -yqq bc
 
 RESET='\e[0m'
 BLOCK='█'
