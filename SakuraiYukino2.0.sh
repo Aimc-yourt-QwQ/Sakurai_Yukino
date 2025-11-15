@@ -207,6 +207,7 @@ alias v 'nvim'
 EOF
 
 cp $HOME/Sakurai_Yukino/dracula $HOME/.termux/
+mv $HOME/.termux/dracula $HOME/.termux/colors.properties
 echo -e "${C_PINK} Sakurai_Yukino: 完成${RESET}"
               sleep 1
               ;;
