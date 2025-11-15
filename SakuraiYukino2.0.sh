@@ -212,6 +212,7 @@ cp $HOME/Sakurai_Yukino/dracula $HOME/.termux/colors.properties
 cd $HOME
 mkdir .img
 cp $HOME/Sakurai_Yukino/back.jpg $HOME/.img/
+rm -f $HOME/install.sh
 echo -e "${C_PINK} Sakurai_Yukino: 完成${RESET}"
               sleep 1
               ;;
