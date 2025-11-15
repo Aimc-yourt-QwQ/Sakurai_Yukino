@@ -1,5 +1,6 @@
 #!/bin/bash
 
+touch ~/.hushlogin
 cd $HOME
 
 RESET='\e[0m'
