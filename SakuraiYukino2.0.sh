@@ -186,7 +186,8 @@ echo -e "${C_PINK} Sakurai_Yukino: 完成，输入Q或q退出脚本，重启term
              sleep 10
              ;;
          9)
-         curl -s http://ohmyposh.dev/install.sh | bash -s
+         wget http://ohmyposh.dev/install.sh
+         bash install.sh
          echo -e "${C_PINK} Sakurai_Yukino: 完成${RESET}"
              sleep 1
              ;;
