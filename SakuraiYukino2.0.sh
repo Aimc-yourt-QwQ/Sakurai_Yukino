@@ -186,7 +186,7 @@ exec fish
 EOF
 
 echo -e "${C_PINK} Sakurai_Yukino: 完成，输入Q或q退出脚本，重启termux，使用 cd Sakurai_Yukino&& bash SakuraiYukino2.0.sh 然后执行剩下的步骤${RESET}"
-             sleep 10
+             sleep 18
              ;;
          9)
          wget http://ohmyposh.dev/install.sh
@@ -213,8 +213,8 @@ cd $HOME
 mkdir .img
 cp $HOME/Sakurai_Yukino/back.jpg $HOME/.img/
 rm -f $HOME/install.sh
-echo -e "${C_PINK} Sakurai_Yukino: 完成${RESET}"
-              sleep 1
+echo -e "${C_PINK} Sakurai_Yukino: 完成，如果你是按照从1到这一步的话，配置已经完成了。你现在可以重启Termux！${RESET}"
+              sleep 5
               ;;
         [Qq])
             echo -e "\n${C_PINK}感谢使用 SakuraiYukino2.0${RESET}"
